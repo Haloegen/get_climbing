@@ -1,10 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald&family=Roboto+Condensed:ital,wght@1,300&family=Roboto+Slab&display=swap');
+
+/* FAFAF9
+E48D65
+E8541D
+959594
+2E2127
+Color codes
+ */
+
 * {
     margin: 0;
     padding: 0;
-    border: 0;
+    border: none;
+}
+
+body {
+    font-family: Roboto-Slab, sans-serif;
+    font-weight: 300;
+    color: #E8541D;
+}
+
+/* headings and titles */
+
+h1, h2 {
+    font-family: Roboto-Condensed, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+#logo, #menu {
+    line-height: 50px;
 }
 
 #mast-head {
     background-color: #2E2127;
     color: #E8541D;
+}
+
+#logo {
+    float: left;
+    font-size: 250%;
+    margin-left: 25px;
+}
+
+#menu {
+    float: right;
+}
+
+#menu li {
+    float: left;
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: #959594;
+}
+
+#menu a:hover {
+    border: 1px solid #E48D65;
+    border-style: inset;
+}
+
+.active {
+    border-bottom: 1px solid #E48D65;
+}
+
+/* hero-image */
+
+#image-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+#hero-image {
+    height: 600px;
+    width: 100%;
+    background: url('../images/pexels-skitterphoto-9606.jpg') no-repeat center center;
+    margin: 5px 0 0;
+    background-size: cover;
+    background-position: bottom;
+}
+
+#cover-text {
+    font-size: 130%;
+    font-family:Courier, monospace sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
+    width: 90%;
+    height: 150px;
+    margin-right: 30px;
+
+    padding-top: 20px;
+    padding-left: 10px;
+
+    background-color: #2E2127;
+    bottom: 30px;
+    right: 50px;
+    color: #E48D65;
+    opacity: 0.6;
+    position: absolute;
+
 }
