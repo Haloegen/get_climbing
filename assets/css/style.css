@@ -1,0 +1,10 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+#mast-head {
+    background-color: #2E2127;
+    color: #E8541D;
+}
