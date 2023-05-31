@@ -32,10 +32,7 @@ h1, h2 {
     line-height: 50px;
 }
 
-#mast-head {
-    background-color: #2E2127;
-    color: #E8541D;
-}
+
 
 #logo {
     float: left;
@@ -67,6 +64,11 @@ h1, h2 {
     border-bottom: 1px solid #E48D65;
 }
 
+#mast-head {
+    background-color: #2E2127;
+    color: #E8541D;
+}
+
 /* hero-image */
 
 #image-outer {
@@ -87,11 +89,11 @@ h1, h2 {
 
 #cover-text {
     font-size: 130%;
-    font-family:Courier, monospace sans-serif;
+    font-family:Roboto-Slab, sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
 
-    width: 90%;
+    width: 50%;
     height: 150px;
     margin-right: 30px;
 
