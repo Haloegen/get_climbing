@@ -92,14 +92,11 @@ h1, h2 {
     font-family:Roboto-Slab, sans-serif;
     text-transform: uppercase;
     letter-spacing: 5px;
-
     width: 50%;
     height: 150px;
     margin-right: 25px;
-
-    padding-top: 20px;
-    padding-left: 10px;
-
+    padding-top: 25px;
+    padding-left: 15px;
     background-color: #2E2127;
     bottom: 30px;
     right: 50px;
@@ -127,7 +124,7 @@ h1, h2 {
 }
 
 #offering {
-    height: 500px;
+    height: 600px;
 }
 
 .offer-box {
@@ -135,7 +132,7 @@ h1, h2 {
     width: 49%;
     background-color: #2E2127;
     color: #FAFAF9;
-    height: 400px;
+    height: 600px;
 }
 
 .offer-box-heading {
@@ -156,6 +153,7 @@ h1, h2 {
 
 #right-offer-heading li {
     text-align: right;
+    list-style-type: none;
 }
 
 #right-offer-heading h2 {
@@ -175,17 +173,28 @@ h1, h2 {
     color: #E48D65;
 }
 
-#introduction {
+.introduction {
     text-align: center;
     margin: 5px 0;
     font-size: 250%;
 }
 
-/* classes html css */
-/*
+
+
+/* new */
+
 #classes-outer {
-    height: 600px;
+    height: 50%;
     width: 100%;
+    overflow: hidden;
+}
+
+#classes-outer2 {
+    height: 50%;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+
 }
 
 
@@ -198,21 +207,24 @@ h1, h2 {
     border: 5px solid #E48D65;
     border-style: outset;
     text-align: center;
+    color: #959594;
 }
- 
-/*
 
-/* #kid-classes {
-    padding-top: 25px;
-    width: 80%;
-    background-color: #2E2127;
-    color: #FAFAF9;
-    height: 400px;
-    margin: 0 auto;
-    text-align: center;
+.class-heading {
+    color: #2E2127;
 }
-*/
 
+th {
+    color: #2E2127;
+}
+
+td {
+    padding: 5px;
+}
+
+.offer-box-heading>li {
+    color: #959594;
+}
 /* footer */
 
 footer {
