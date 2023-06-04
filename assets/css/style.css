@@ -220,10 +220,15 @@ th {
 
 td {
     padding: 5px;
+    color: #2E2127;
 }
 
-.offer-box-heading>li {
+ul>li {
     color: #959594;
+}
+
+li>p {
+    color: #FAFAF9;
 }
 /* footer */
 
