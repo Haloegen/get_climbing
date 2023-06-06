@@ -417,9 +417,7 @@ footer {
 
 }
 
-#contact-message {
 
-}
 
 .social {
     text-align: center;
@@ -434,4 +432,41 @@ footer {
     margin: 1%;
     padding: 5%;
     color: #E48D65;
+}
+
+#contact-message {
+width: 100%;
+text-align: center;
+left: 25%;
+height: 50px;
+}
+/* media quiries */
+
+@media screen and (max-width:1200px) {
+
+
+    #left-offer, #right-offer {
+        width: 100%;
+        float: left;
+        padding: 0;
+        font-size: 110%;
+    }
+    
+    #cover-text {
+        bottom: 350px;
+    }
+}
+
+@media screen and (max-width:950px) {
+    #left-offer, #right-offer {
+        font-size: 100%;
+    }
+
+    #cover-text {
+        font-size: 120%;
+    }
+
+    #classes {
+        font-size: 90%;
+    }
 }
