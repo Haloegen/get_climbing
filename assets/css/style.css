@@ -232,7 +232,7 @@ li>p {
     color: #FAFAF9;
 }
 
-/* gallery */
+/* gallery https://codepen.io/NikitaPr0705/pen/ZEYPeLR got this from my mentor. Not my original code */
 #slider {
     margin: 0 auto;
     height: 80%;
@@ -417,7 +417,7 @@ footer {
 
 }
 
-
+/* inspired by Love Running, i liked the icons so i decided to use them.*/
 
 .social {
     text-align: center;
@@ -468,5 +468,13 @@ height: 50px;
 
     #classes {
         font-size: 90%;
+    }
+
+    #contact-message {
+        padding: 20px;
+    }
+
+.classes table {
+    font-size: 13px;
     }
 }
