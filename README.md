@@ -67,11 +67,10 @@ In this section, you should go over the different parts of your project, and des
 
 ## Testing 
 
-Using Google Dev tools I went about trying to make it responsive and testing all links so that they worked.
+- Using Google Dev tools I went about trying to make it responsive and testing all links so that they worked.
 I also needed to get the pictures to work in the slider which also faced a problem. 
 But through testing, seeing what sizes could fit or how i could orient the pictures it eventually worked. 
-
-
+- I checked every link, and made sure everything fit my wireframe from balsamiq
 
 ### Validator Testing 
 
@@ -81,6 +80,9 @@ But through testing, seeing what sizes could fit or how i could orient the pictu
 - CSS
   - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
   - A singular warning.
+
+- Accessibility 
+ ![Lighthouse](assets/images/access.png)
 
 - WAVE
  - with a few constast errors that due to layout came about, most came from imported code.
@@ -111,4 +113,3 @@ A problem I had was in Responsiveness, where I couldnt mold the technology to fi
 
 - The photos used on the home and gallery page are from [Pexels.com](https://www.pexels.com/)
 
-Congratulations on completing your Readme, you have made another big stride in the direction of being a developer! 
