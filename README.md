@@ -96,7 +96,7 @@ A problem I had was in Responsiveness, where I couldnt mold the technology to fi
 - The site was deployed to GitHub pages. The steps to deploy are as follows: 
   - Going through the repository I went into settings and went to the page section.
   - I then selected the main branch and created a domain name of Lets Get Climbing!
-  You can find it at this url ()
+  You can find it at this url [Lets Get Climbing](https://haloegen.github.io/get_climbing/gallery.html)
 
 
 ## Credits 
