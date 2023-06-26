@@ -1,108 +1,111 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Lets Get Climbing!
+Lets get Climbing is a page for people who want to begin or already are climbing that want to join a community of trained and certified instrucotors to help them advance or possibly go on trips with. Climbing trips take quite a bit of logistics so by creating a page that hosts communal climbing events it takes the pressure off and people can just show up as they want. 
 
-Welcome USER_NAME,
+![Responsice Mockup](https://github.com/lucyrush/readme-template/blob/master/media/love_running_mockup.png)
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+## Features 
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
-## Gitpod Reminders
+### Existing Features
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+- __Naviga tion Bar__
 
-`python3 -m http.server`
+  - Featured on both pages, the full responsive navigation bar includes links to the Logo, Home page, Gallery and Sign Up pageand also different sections of the page and is identical in each page to allow for easy navigation.
+  - This section will allow the user to easily navigate through the sections and the pages of the website across all devices without having to revert back to the previous page via the ‘back’ button. 
 
-A blue button should appear to click: _Make Public_,
+![Nav Bar](https://github.com/lucyrush/readme-template/blob/master/media/love_running_nav.png)
 
-Another blue button should appear to click: _Open Browser_.
+- __The Main Hero Image__
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+  - The landing includes a photograph with text overlay to allow the user to see exactly which location this site would be applicable to. 
+  - This image follows the color scheme and is eye catching allowing the user to see information about where this is useful for.
 
-A blue button should appear to click: _Make Public_,
+![Landing Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
 
-Another blue button should appear to click: _Open Browser_.
+- __About__
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+  - The about section gives the user brief informatio about why you should climb and also about the credibility of our instructors
 
-To log into the Heroku toolbelt CLI:
+![Club Ethos](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+- __Classes__
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+  - This section gives information on the classes we provide for both children and adults and brief decription of every class.
+  - This section will be updated as we get more classes, and also more locations.
 
-------
+![Meetup Times](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png)
 
-## Release History
+- __Class Times__ 
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+  - This section involves a time table of all our classes and when and where they are held.
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+- __Footer__
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+  - The footer provides contact information and links to social websites.
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+![Gallery](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+- __The Gallery and Sign-up Page__
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+  - The gallery page is an interactive slider giving the user posisitive feedback.
+  - This page also includes the sign up to our newsletter allowing for people to sign up and hear about any new events that might occur.
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+![Sign Up](https://github.com/lucyrush/readme-template/blob/master/media/love_running_signup.png)
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+### Features Left to Implement
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+- Another feature idea
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+## Testing 
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
-------
 
-## FAQ about the uptime script
+### Validator Testing 
 
-**Why have you added this script?**
+- HTML
+  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
+  - Two warnings were present that belonged to different code.
+- CSS
+  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
+  - A singular warning.
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+- WAVE
+ - with a few constast errors that due to layout came about, most came from imported code.
 
-**How will this affect me?**
+### Unfixed Bugs
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+A problem I had was in Responsiveness, where I couldnt mold the technology to fit into my smaller screen designs due to how i laid out the project, with slightly better knowledge or more time I could figure it out, but just making everything fit onto the screen was a challenge for me. 
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+## Deployment
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+- The site was deployed to GitHub pages. The steps to deploy are as follows: 
+  - Going through the repository I went into settings and went to the page section.
+  - I then selected the main branch and created a domain name of Lets Get Climbing!
+  You can find it at this url ()
 
-**So….?**
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+## Credits 
 
-**Can I opt out?**
+- I used Love Running as an inspiration and I used guidance from my mentor to give me help with certain coding features. I watched the Love running videos to try implementing features and then changing them to my needs as I saw fit.
+- I also looked at other climbing websites to see what they offer and what I could possible achieve.
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+### Content 
+- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
+- The fonts are from [Google Fonts](https://fonts.google.com/)
+- The color palette was chosen from [Color Mind](http://colormind.io/)
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+### Media
 
-**Anything more?**
+- The photos used on the home and gallery page are from [Pexels.com](https://www.pexels.com/)
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
+Congratulations on completing your Readme, you have made another big stride in the direction of being a developer! 

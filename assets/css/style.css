@@ -38,6 +38,7 @@ h1, h2 {
     float: left;
     font-size: 250%;
     margin-left: 25px;
+    color: #E8541D;
 }
 
 #menu {
@@ -118,12 +119,12 @@ h1, h2 {
     border-style: outset;
 }
 
+
 #main-value-heading h2, #main-value-heading p {
     color: #2E2127;
     text-align: center;
     padding: 15px;
 }
-
 #offering {
     height: 600px;
 }
@@ -180,6 +181,11 @@ h1, h2 {
     font-size: 250%;
 }
 
+#about-heading {
+    font-size: 200%;
+    text-align: center;
+    color: #E8541D;
+}
 
 
 /* new */
@@ -478,3 +484,17 @@ height: 50px;
     font-size: 13px;
     }
 }
+
+input[type="submit"] {
+    background-color: #2E2127;
+    padding: 10px 20px;
+    color: #E48D65;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    border: 2px solid #E48D65;
+    border-style: inset;
+    background-color: #959594;
+  }
